@@ -170,7 +170,7 @@ var endGame = function() {
     }
 
     // ask player if they'd like to play again
-    var playAgainConfirm = window.confirm("Woulld you like to play again?");
+    var playAgainConfirm = window.confirm("Would you like to play again?");
 
     if (playAgainConfirm) {
         // restart the game
