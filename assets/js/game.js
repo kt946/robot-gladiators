@@ -26,7 +26,7 @@ var fightOrSkip = function() {
         }
     }
     return false;
-}
+};
 
 
 // repeat and execute as long as the enemy-robot is alive
@@ -228,7 +228,7 @@ var getPlayerName = function() {
 
     console.log("Your robot's name is " + name);
     return name;
-}
+};
 
 // player information
 var playerInfo = {
@@ -278,11 +278,6 @@ var enemyInfo = [
         attack: randomNumber(10, 14)
     }
 ];
-
-console.log(enemyInfo);
-console.log(enemyInfo[0]);
-console.log(enemyInfo[0].name);
-console.log(enemyInfo[0]['attack']);
 
 // start the game when the page loads
 startGame();
